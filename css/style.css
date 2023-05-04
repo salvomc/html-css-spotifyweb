@@ -6,6 +6,7 @@
 
 body{
   font-family: 'Montserrat', sans-serif;
+  display: flex;
 }
 
 /* shared classes */
@@ -16,7 +17,7 @@ body{
   display: flex;
 }
 
-/* header */
+/* top-bar */
 
 .top-bar{
   width: 100%;
@@ -41,4 +42,141 @@ body{
   color: white;
 }
 
-/* fine header */
+/* fine top-bar */
+
+/* spotify-navbar */
+
+.spotify-navbar{
+  width: 260px;
+  background-color: black;
+}
+
+.spotify-logo-container{
+  top: 0;
+  left:0;
+}
+
+#spotify-logo{
+  max-width: 50%;
+  margin: 20px;
+}
+
+
+.navbar-ul{
+  margin-top: 20px;
+  top: 80px;
+  left: 0;
+}
+
+.navbar-ul-icon{
+  width: 30px;
+  margin-top: 2px;
+  margin-left: 20px;
+}
+
+.navbar-ul-home-icon{
+  width: 49px;
+  margin-top: 2px;
+  padding-left: 17px;
+  border-left: 3px solid greenyellow;
+}
+
+.navbar-ul span{
+  position: relative;
+  bottom: 10px;
+  font-size: 12px;
+}
+
+.navbar-playlist{
+  top: 230px;
+  left: 0;
+}
+
+.navbar-playlist li{
+  margin: 15px 0;
+  font-size: 12px;
+}
+
+.navbar-playlist li span{
+  margin-left: 8px;
+  font-size: 15px;
+}
+
+.navbar-playlist h4, .navbar-playlist ul{
+  margin-left: 20px;
+}
+
+.navbar-playlist h4{
+  font-size: 14px;
+  color: white;
+}
+
+#navbar-new{
+  padding: 10px;
+  font-size: 15px;
+  color: black;
+  background-color: white;
+}
+
+.navbar-user{
+  left: 0;
+  right: 260px;
+  bottom: 80px;
+  background-color: black;
+}
+
+.download-app{
+  padding-top: 40px;
+  padding-left: 5%;
+  font-size: 12px;
+}
+
+#download-arrow{
+  margin-right: 10px;
+  padding: 1px 2px;
+  border: 2px solid grey;
+  border-radius: 50%;
+  font-size: 8px;
+  color: grey;
+}
+
+#download-user-hr{
+  width: 90%;
+  margin: 10px auto;
+}
+
+#profile-picture{
+  width: 25px;
+  height: 25px;
+  margin: 10px 5px 10px 10px;
+  border-radius: 50%;
+  background: grey;
+}
+
+.user span{
+  font-size: 14px;
+  font-weight: bold;
+  position: relative;
+  bottom: 20px;
+  color: white;
+}
+
+.user a{
+  text-decoration: none;
+}
+
+.spotify-logo, .navbar-ul, .navbar-playlist, .navbar-user{
+  position:fixed;
+  width: 260px;
+}
+
+.download-app a, .navbar-ul a, .navbar-list img, .navbar-playlist a{
+  opacity: 0.7;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-playlist ul{
+  margin-top: 10px;
+  list-style-type: none;
+}

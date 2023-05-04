@@ -11,13 +11,87 @@
         <link rel="stylesheet" href="./css/style.css">
         <title>Spotify</title>
     </head>
-    <body>
-        <header>
-            <div class="right-main">
+    <body>    
+        <header>    
+            <div class="right-container">
+                <!-- top-bar -->
                 <div class="top-bar">
                     <button id="upgrade-button">EFFETTUA L'UPGRADE</button>
                 </div>
+                <!-- fine top-bar -->
             </div>
         </header>
-        
-      
+        <!-- spotify-navbar-->
+        <div class="spotify-navbar">
+            <div class="spotify-logo-container">
+                <img src="./img/logo.svg" alt="spotify-logo" id="spotify-logo">
+            </div>
+        </div>
+            <div class="navbar-ul">
+                <ul>
+                    <li>
+                        <a href="#"> 
+                            <img src="./img/home.svg" alt="" class="navbar-ul-home-icon"><span> Home </span>  
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"> 
+                            <img src="./img/search.svg" alt="" class="navbar-ul-icon"><span> Cerca </span>  
+                            </a>
+                    </li>
+                    <li>
+                        <a href="#"> 
+                            <img src="./img/libreria.svg" alt="" class="navbar-ul-icon"><span> La tua libreria </span>  
+                            </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar-playlist">
+                <h4>PLAYLIST</h4>
+                <ul>
+                    <li>
+                        <a href="#">
+                        <i class="fas fa-plus" id="navbar-new"></i>
+                        <span>Crea Playlist</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">Nome Playlist</a>
+                    </li>
+                    <li>
+                        <a href="#">Nome Playlist</a>
+                    </li>
+                    <li>
+                        <a href="#">Nome Playlist</a>
+                    </li>
+                    <li>
+                        <a href="#">Nome Playlist</a>
+                    </li>
+                    <li>
+                        <a href="#">Nome Playlist</a>
+                    </li>
+                    <li>
+                        <a href="#">Nome Playlist</a>
+                    </li>
+                    <li>
+                        <a href="#">Nome Playlist</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar-user">
+                <div class="download-app">
+                    <a href="#">
+                        <i class="fas fa-arrow-down" id="download-arrow"></i><span>Installa app</span>
+                    </a>
+                </div>
+                <hr id="download-user-hr">
+                <div class="user">
+                    <a href="#">
+                        <img src="./img/profile.svg" alt="profile-picture" id="profile-picture">
+                        <span>John Doe</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- fine spotify-navbar -->
+  
