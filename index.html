@@ -21,77 +21,97 @@
             </div>
         </header>
         <!-- fine header -->
-        <!-- spotify-navbar-->
-        <div class="spotify-navbar">
-            <div class="spotify-logo-container">
-                <img src="./img/logo.svg" alt="spotify-logo" id="spotify-logo">
-            </div>
-            <div class="navbar-ul">
-                <ul>
-                    <li>
-                        <a href="#"> 
-                            <img src="./img/home.svg" alt="" class="navbar-ul-home-icon"><span> Home </span>  
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#"> 
-                            <img src="./img/search.svg" alt="" class="navbar-ul-icon"><span> Cerca </span>  
-                            </a>
-                    </li>
-                    <li>
-                        <a href="#"> 
-                            <img src="./img/libreria.svg" alt="" class="navbar-ul-icon"><span> La tua libreria </span>  
-                            </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="navbar-playlist">
-                <h4>PLAYLIST</h4>
-                <ul>
-                    <li>
-                        <a href="#">
-                        <i class="fas fa-plus" id="navbar-new"></i>
-                        <span>Crea Playlist</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">Nome Playlist</a>
-                    </li>
-                    <li>
-                        <a href="#">Nome Playlist</a>
-                    </li>
-                    <li>
-                        <a href="#">Nome Playlist</a>
-                    </li>
-                    <li>
-                        <a href="#">Nome Playlist</a>
-                    </li>
-                    <li>
-                        <a href="#">Nome Playlist</a>
-                    </li>
-                    <li>
-                        <a href="#">Nome Playlist</a>
-                    </li>
-                    <li>
-                        <a href="#">Nome Playlist</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="navbar-user">
-                <div class="download-app">
-                    <a href="#">
-                        <i class="fas fa-arrow-down" id="download-arrow"></i><span>Installa app</span>
-                    </a>
-                </div>
-                <hr id="download-user-hr">
-                <div class="user">
-                    <a href="#">
-                        <img src="./img/profile.svg" alt="profile-picture" id="profile-picture">
-                        <span>John Doe</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <!-- fine spotify-navbar -->
+        <!-- main -->
+        <main>
+            <div class="main-container">
+                <div class="main-row">
+                    <div class="col-30-main">
+                        <!-- spotify-navbar -->
+                        <div class="spotify-navbar">
+                            <div class="navbar-container">
+                                <div class="navbar-row">
+                                    <div class="navbar-col">
+                                        <div class="navbar-content">
+                                            <div class="space-between">
+                                                <!-- navbar-logo -->
+                                                <div class="navbar-logo">
+                                                    <div class="navbar-logo-container">
+                                                        <img src="./img/logo.svg" alt="spotify-logo">
+                                                    </div>
+                                                </div>        
+                                                <!-- navbar-choices -->
+                                                <div class="navbar-choices">
+                                                    <ul>
+                                                        <li class="navbar-list-item" id="home-list-item">
+                                                            <img class="navbar-list-img" id="home-list-img" src="./img/home.svg" alt="home"><a class="navbar-list-text" href="#">Home</a>
+                                                        </li>
+                                                        <li class="navbar-list-item">
+                                                            <img class="navbar-list-img" src="./img/search.svg" alt="search"><a class="navbar-list-text" href="#">Cerca</a>
+                                                        </li>
+                                                        <li class="navbar-list-item" >
+                                                            <img class="navbar-list-img" src="./img/libreria.svg" alt="library"><a class="navbar-list-text" href="#">La tua libreria</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <!-- navbar-playlist-menu -->
+                                                <div class="playlist-content">
+                                                    <h4>PLAYLIST</h4>
+                                                    <div class="playlist-hover">
+                                                        <div class="create-playlist"><span class="plus">+</span></div><a class="hover-plus" href="#">Crea Playlist</a>
+                                                    </div>
+                                                    <!--navabr-playlist-list -->
+                                                    <div class="playlist-list">
+                                                        <ul>
+                                                            <li class="playlist-list-name"><a href="#">Nome playlist</a></li>
+                                                            <li class="playlist-list-name"><a href="#">Nome playlist</a></li>
+                                                            <li class="playlist-list-name"><a href="#">Nome playlist</a></li>
+                                                            <li class="playlist-list-name"><a href="#">Nome playlist</a></li>
+                                                            <li class="playlist-list-name"><a href="#">Nome playlist</a></li>
+                                                            <li class="playlist-list-name"><a href="#">Nome playlist</a></li>
+                                                            <li class="playlist-list-name"><a href="#">Nome playlist</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- navbar-install-user  -->
+                                            <div class="profile">
+                                                <div class="install-app">
+                                                    <div class="download"><i class="fa-solid fa-arrow-down-long"></i></div>
+                                                    <div class="download-text"><a href="#">Installa app</a></div>
+                                                </div>
+                                                <hr>
+                                                <div class="account">
+                                                    <div class="account-pic"></div>
+                                                    <div class="account-name"><h4>John Doe</h4></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="profile profile-adapt-phone">
+                            <div class="install-app">
+                                <div class="download download-adapt-phone">
+                                    <img src="./img/download.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="account">
+                                <div class="account-pic"></div>
+                            </div>
+                        </div>
+                        <div class="navbar-adapt-phone">
+                            <div class="logo-icons-adapt-phone">
+                                <div class="logo-adapt-phone">
+                                    <img src="./img/logo-small.svg" alt="logo">
+                                    <ul>
+                                        <li class="img-list-adapt-phone"><a href="#"><img src="./img/home.svg" alt="home"></a></li>
+                                        <li class="img-list-adapt-phone"><img src="./img/search.svg" alt="search"></li>
+                                        <li class="img-list-adapt-phone"><img src="./img/libreria.svg" alt="libreria"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
     </body>
 </html>
