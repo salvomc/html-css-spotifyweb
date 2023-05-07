@@ -648,3 +648,83 @@ hr{
 .grey-volume:hover .white-volume{
   display: none;
 }
+
+/* media query */
+
+@media screen and (max-width: 1950px){
+
+  .col-40-music-player{
+      width: 60%;
+  }
+
+  .grey-volume{
+      margin-left: 15px;
+      width: 46%;
+  }
+
+  .music-player-right-icon{
+      margin-left: 15px;
+  }
+
+  .heart-folder{
+      font-size: 1rem;
+  }
+
+  .overlay{
+      height: 250px;
+  }
+}
+
+@media screen and (max-width: 991px){
+  
+  .song-artist-col-20{
+      width: calc(50% - 30px);
+  }
+
+  .grey-time{
+      margin: 0px 20px;
+  }
+
+  .col-40-music-player{
+      width: 29%;
+  }
+
+  .song-artist-container{
+      flex-wrap: wrap;
+  }
+
+  .music-player{
+      min-width: 745px;
+  }
+}
+
+@media screen and (max-width: 568px){
+
+  .navbar-adapt-phone{
+      display: block;
+  }
+
+  .spotify-navbar{
+      display: none;
+  }
+
+
+  .col-70-main{
+      width: calc(100% - 70px);
+      margin-left: 70px;
+      min-width: 568px;
+  }
+  
+  .overlay{
+      height: 175px;
+  }
+
+  .profile{
+      padding: 0;
+
+  }
+  
+  .account{
+      margin-bottom: 10px;
+  }
+}
